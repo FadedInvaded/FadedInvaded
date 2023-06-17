@@ -1,5 +1,5 @@
    :root{
-     --background-image: url('https://images.alphacoders.com/632/632525.png');
+     --background: url('https://images.alphacoders.com/632/632525.png');
      --activetext-colour: white;
  
      --primary1-colour: red;
@@ -28,28 +28,28 @@
  
 /*--------------------------------------------------------*/
 #app-mount {
-    --background-image: var(--background-image);
+    background: var(--background-image);
 }
 
 /* removing backgrounds */
 
 /* Guild and Top bar transparency */
 .theme-dark .wrapper-1_HaEi {
-    --background-image:transparent;
+    background:transparent;
     background-image: var(--transparency-1);
 }
 
 /* transparency for channels and members list and private channels and left side of settings*/
 #app-mount .container-1NXEtd, .privateChannels-oVe7HL, .app-3xd6d0 .standardSidebarView-E9Pc3j, .app-3xd6d0 .container-2cd8Mz {
-    --background-image: transparent;
+    background: transparent;
     background-image: var(--transparency-2);
 }
 .theme-dark .panels-3wFtMD, .theme-light .panels-3wFtMD {
-    --background-image: var(--transparency-2);
+    background: var(--transparency-2);
 }
 /* chat and top area and other secondary pages */
 .app-3xd6d0 .chat-2ZfjoI, .app-3xd6d0 .scrollableContainer-15eg7h {
-    --background-image: transparent;
+    background: transparent;
     background-image: var(--transparency-3);
 }
 /* removing color from specific class */
@@ -157,7 +157,7 @@
         #app-mount .expandedFolderBackground-1kSAf6:not(.collapsed-uGXEbi) {background-color: var(--secondary3-colour);}
         
     /*Server Boosting*/
-        #app-mount .perksModal-CLcR1c {--background-image: var(--transparency-1);}
+        #app-mount .perksModal-CLcR1c {background: var(--transparency-1);}
         #app-mount .closeWrapper-1aVqeP .closeButton-PCZcma{margin-top: 40px;}
 
         #app-mount .content-2jtGoN {
@@ -263,7 +263,7 @@
             /*Live Feed*/
                 #app-mount .root-22AK9z, 
                 #app-mount .callContainer-HtHELf {
-                    --background-image: var(--transparency-1);
+                    background: var(--transparency-1);
                 }
 
                 #app-mount .wrapper-3t3Yqv .controlButton-2PMNom[aria-label="Share Your Screen"],
@@ -290,7 +290,7 @@
             background-color: var(--primary3-colour);
         }
         #app-mount .mentioned-Tre-dv:before {
-            --background-image: var(--primary1-colour); 
+            background: var(--primary1-colour); 
             width: 3px;
         }
 
@@ -726,7 +726,7 @@
     #app-mount .userProfileOuterUnthemed-11rPfA .userPopoutInner-nv9Y92,
     #app-mount .userProfileOuterUnthemed-11rPfA,
     #app-mount .userPanelInner-3KPel3 {
-        --background-image: transparent;
+        background: transparent;
         background-color: var(--secondary3-colour)!important;
     }
     
@@ -829,7 +829,7 @@
         margin: 0px;
     }
     #app-mount .typeWindows-2-g3UY:after {
-        content: "GGO Kirito v1.3.2 By VaporousCreeper";
+        content: "FadedInvaded V1";
         color: rgb(255,255,255,0.5);
         font-weight: 500;
 
